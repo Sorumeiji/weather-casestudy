@@ -16,7 +16,7 @@ function App() {
 			<Weather />
 			<div className='landing'>
 				<div className='landing__title'>
-					<h1>SIMPLY, GET MORE FOR YOUR WEATHER. AVOID THE RAIN. </h1>
+					<h1>SIMPLY, GET MORE FOR FROM YOUR WEATHER. AVOID THE RAIN. </h1>
 				</div>
 				<button onClick={analyticsCTA} className='landing__cta'>
 					TRACK THE SUN

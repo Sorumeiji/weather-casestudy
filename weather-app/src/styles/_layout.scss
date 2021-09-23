@@ -58,7 +58,11 @@ body {
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    background-color: hsl(179, 100%, 32%);
+    background: linear-gradient(rgb(0, 163, 160, 0.84), rgb(0, 163, 160, 0.84)),
+        /* bottom, image */ url("../images/florida.jpg");
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
 }
 
 @keyframes fadeInAnimation {
