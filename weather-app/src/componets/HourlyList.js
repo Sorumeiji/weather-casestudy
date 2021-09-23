@@ -4,11 +4,11 @@ import Hourly from './Hourly';
 
 function HourlyList({ weather }) {
 	return (
-		<div className='hourly-list'>
+		<div className='weather'>
 			{weather && weather.hourly && weather.hourly.length > 0 && (
-				<div>
+				<div className='hourly__list'>
 					{weather.hourly.map((hour, index) => (
-						<div key={'hourly_' + index}>
+						<div key={'hourly_' + index} className='hourly__item'>
 							<Hourly hourlyWeather={hour} />
 						</div>
 					))}

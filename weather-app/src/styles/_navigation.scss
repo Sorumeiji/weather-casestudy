@@ -1,0 +1,22 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    grid-column: 1 / 12;
+    order: 1;
+    position: sticky;
+}
+
+.navigation ul li a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: 300;
+}
+
+.navigation ul li a:hover {
+    color: grey;
+}
+
+.navigation ul li + li {
+    margin-left: 1em;
+}

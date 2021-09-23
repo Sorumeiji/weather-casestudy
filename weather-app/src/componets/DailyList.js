@@ -4,11 +4,11 @@ import Daily from './Daily';
 
 function DailyList({ weather }) {
 	return (
-		<div className='daily-list'>
+		<div className='weather'>
 			{weather && weather.daily && weather.daily.length > 0 && (
-				<div>
+				<div className='daily__list'>
 					{weather.daily.map((day, index) => (
-						<div key={'daily_' + index}>
+						<div key={'daily_' + index} className='daily__item'>
 							<Daily dailyWeather={day} />
 						</div>
 					))}

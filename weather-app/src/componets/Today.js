@@ -6,12 +6,12 @@ function Today({ weather, timezone, displayCurrentTime }) {
 		<div className='weather'>
 			{weather && (
 				<div>
-					<h2>
+					<h2 className='weather__location'>
 						{weather.today.city}, {weather.today.state} Weather
 					</h2>
-					<h3>as of {displayCurrentTime + ' ' + timezone} </h3>
-					<h1>{parseInt(weather.today.temperature, 10)}° </h1>
-					<h2>{weather.today.description}</h2>
+					<h3 className='weather__localtime'>as of {displayCurrentTime + ' ' + timezone} </h3>
+					<h1 className='weather__temp'>{parseInt(weather.today.temperature, 10)}° </h1>
+					<h2 className='weather__tempdesc'>{weather.today.description}</h2>
 				</div>
 			)}
 		</div>

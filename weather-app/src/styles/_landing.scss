@@ -1,0 +1,30 @@
+.landing {
+    order: 2;
+    margin-top: 2em;
+}
+
+.landing__cta,
+.landing__title,
+.landing__downloads {
+}
+
+.landing__cta {
+    border: 1px solid black;
+    padding: 0.8em;
+    border-radius: 0.2em;
+    margin-top: 2em;
+}
+
+.landing__cta:hover {
+    color: black;
+    background-color: hsla(0, 0%, 50%, 0.808);
+}
+
+.landing__title {
+    width: 80%;
+}
+
+.landing__downloads {
+    display: flex;
+    margin-top: 1em;
+}

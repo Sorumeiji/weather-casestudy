@@ -33,7 +33,7 @@ const Weather = () => {
 
 	return (
 		<Router>
-			<nav className='navgation'>
+			<nav className='navigation'>
 				<ul>
 					<li>
 						<Link to='/'>Today</Link>
