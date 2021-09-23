@@ -3,32 +3,40 @@
 @import "hourly";
 
 .weather {
-    margin: 2em 13.5em;
     order: 3;
-    overflow: auto;
 }
 
 .weather__location {
     font-weight: 400;
     color: hsl(44, 100%, 95%);
+    font-size: 1em;
 }
 
 .weather__localtime {
     font-weight: 400;
     color: hsl(44, 100%, 95%);
+    font-size: 1em;
 }
 
 .weather__weekday {
     font-weight: 300;
     color: hsl(44, 100%, 95%);
+    font-size: 1em;
 }
 
 .weather__temp {
     color: hsl(44, 100%, 95%);
     font-weight: 800;
+    font-size: 1em;
 }
 
 .weather__tempdesc {
     font-weight: 300;
     color: hsl(44, 100%, 95%);
+    font-size: 1em;
+}
+
+.weather__tempcontent {
+    display: flex;
+    align-items: center;
 }

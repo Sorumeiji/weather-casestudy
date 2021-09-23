@@ -17,6 +17,7 @@ function Daily({ dailyWeather }) {
 							'°'}
 					</h1>
 					<h2 className='weather__tempdesc'>{dailyWeather.temperatureDesc}</h2>
+					<img src={dailyWeather.iconLink} />
 				</div>
 			)}
 		</div>

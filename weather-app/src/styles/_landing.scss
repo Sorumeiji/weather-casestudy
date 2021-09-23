@@ -1,6 +1,5 @@
 .landing {
     order: 2;
-    margin-top: 2em;
     display: flex;
     flex-direction: column;
 }
@@ -8,14 +7,15 @@
     border: 1px solid #e05d5d;
     padding: 0.8em;
     border-radius: 0.2em;
-    margin-top: 2em;
-    margin-bottom: 0;
-    margin-left: 13.5em;
-    margin-right: 13.5em;
+    // margin-top: 2em;
+    // margin-bottom: 0;
+    // margin-left: 13.5em;
+    // margin-right: 13.5em;
     width: max-content;
     background-color: hsla(0, 68%, 62%, 0.801);
     font-weight: 800;
     color: #fff8e5;
+    font-size: 1em;
 }
 
 .landing__cta:hover {
@@ -23,14 +23,13 @@
 }
 
 .landing__title {
-    width: max(350px, 60%);
+    width: max(350px, 40%);
     color: #fff8e5;
-    margin: 0px auto;
+    font-size: 1em;
 }
 
 .landing__downloads {
     display: flex;
-    margin: 1em 13.5em;
 }
 
 @media (max-width: 900px) {

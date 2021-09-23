@@ -11,7 +11,10 @@ function Today({ weather, timezone, displayCurrentTime }) {
 					</h2>
 					<h3 className='weather__localtime'>as of {displayCurrentTime + ' ' + timezone} </h3>
 					<h1 className='weather__temp'>{parseInt(weather.today.temperature, 10)}° </h1>
-					<h2 className='weather__tempdesc'>{weather.today.description}</h2>
+					<div className='weather__tempcontent'>
+						<h2 className='weather__tempdesc'>{weather.today.description}</h2>
+						<img src={weather.today.iconLink} />
+					</div>
 				</div>
 			)}
 		</div>

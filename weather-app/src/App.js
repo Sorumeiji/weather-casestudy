@@ -16,7 +16,7 @@ function App() {
 			<Weather />
 			<div className='landing'>
 				<div className='landing__title'>
-					<h1>SIMPLY, GET MORE FOR FROM YOUR WEATHER. AVOID THE RAIN. </h1>
+					<h1>SIMPLY, GET MORE FROM YOUR WEATHER. AVOID THE RAIN.</h1>
 				</div>
 				<button onClick={analyticsCTA} className='landing__cta'>
 					TRACK THE SUN
@@ -28,13 +28,6 @@ function App() {
 						target='_blank'
 						rel='noopener noreferrer'>
 						<img src={googleplay} alt='googleplay_download' />
-					</a>
-					<a
-						href='https://www.apple.com/app-store/'
-						className='applestore'
-						target='_blank'
-						rel='noopener noreferrer'>
-						<img src={applestore} alt='applestore_download' />
 					</a>
 				</div>
 			</div>

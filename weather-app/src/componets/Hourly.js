@@ -10,6 +10,7 @@ function Hourly({ hourlyWeather }) {
 					<h2 className='weather__weekday'>{hourlyWeather.weekday}</h2>
 					<h1 className='weather__temp'>{parseInt(hourlyWeather.temperature, 10)}° </h1>
 					<h2 className='weather__tempdesc'>{hourlyWeather.temperatureDesc}</h2>
+					<img src={hourlyWeather.iconLink} />
 				</div>
 			)}
 		</div>
