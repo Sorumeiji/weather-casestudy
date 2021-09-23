@@ -58,6 +58,7 @@ body {
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    background-color: hsl(179, 100%, 32%);
 }
 
 @keyframes fadeInAnimation {

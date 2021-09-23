@@ -5,7 +5,7 @@
     flex-direction: column;
 }
 .landing__cta {
-    border: 1px solid black;
+    border: 1px solid #e05d5d;
     padding: 0.8em;
     border-radius: 0.2em;
     margin-top: 2em;
@@ -13,16 +13,18 @@
     margin-left: 13.5em;
     margin-right: 13.5em;
     width: max-content;
+    background-color: hsla(0, 68%, 62%, 0.801);
+    font-weight: 800;
+    color: #fff8e5;
 }
 
 .landing__cta:hover {
-    color: black;
-    background-color: hsla(0, 0%, 50%, 0.808);
+    background-color: rgb(224, 92, 92);
 }
 
 .landing__title {
     width: max(350px, 55%);
-    // max-width: 350px;
+    color: #fff8e5;
     margin: 0px auto;
 }
 

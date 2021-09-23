@@ -10,21 +10,25 @@
 
 .weather__location {
     font-weight: 400;
+    color: hsl(44, 100%, 95%);
 }
 
 .weather__localtime {
     font-weight: 400;
+    color: hsl(44, 100%, 95%);
 }
 
 .weather__weekday {
-    opacity: 0.8;
     font-weight: 300;
+    color: hsl(44, 100%, 95%);
 }
 
 .weather__temp {
+    color: hsl(44, 100%, 95%);
+    font-weight: 800;
 }
 
 .weather__tempdesc {
-    opacity: 0.8;
     font-weight: 300;
+    color: hsl(44, 100%, 95%);
 }
