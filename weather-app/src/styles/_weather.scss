@@ -3,6 +3,28 @@
 @import "hourly";
 
 .weather {
-    margin-top: 2em;
+    margin: 2em 13.5em;
     order: 3;
+    overflow: auto;
+}
+
+.weather__location {
+    font-weight: 400;
+}
+
+.weather__localtime {
+    font-weight: 400;
+}
+
+.weather__weekday {
+    opacity: 0.8;
+    font-weight: 300;
+}
+
+.weather__temp {
+}
+
+.weather__tempdesc {
+    opacity: 0.8;
+    font-weight: 300;
 }

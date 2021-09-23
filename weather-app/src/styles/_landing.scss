@@ -1,18 +1,18 @@
 .landing {
     order: 2;
     margin-top: 2em;
+    display: flex;
+    flex-direction: column;
 }
-
-.landing__cta,
-.landing__title,
-.landing__downloads {
-}
-
 .landing__cta {
     border: 1px solid black;
     padding: 0.8em;
     border-radius: 0.2em;
     margin-top: 2em;
+    margin-bottom: 0;
+    margin-left: 13.5em;
+    margin-right: 13.5em;
+    width: max-content;
 }
 
 .landing__cta:hover {
@@ -21,10 +21,24 @@
 }
 
 .landing__title {
-    width: 80%;
+    width: max(350px, 55%);
+    // max-width: 350px;
+    margin: 0px auto;
 }
 
 .landing__downloads {
     display: flex;
-    margin-top: 1em;
+    margin: 1em 13.5em;
+}
+
+@media (max-width: 900px) {
+    .landing__title {
+        width: min(350px, 43%);
+    }
+}
+
+@media (max-width: 700px) {
+    .landing__title {
+        width: min(350px, 30%);
+    }
 }

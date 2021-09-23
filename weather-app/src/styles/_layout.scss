@@ -43,6 +43,7 @@ a {
 }
 
 /* Set core root defaults */
+html,
 html:focus-within {
     scroll-behavior: smooth;
 }
@@ -54,6 +55,18 @@ body {
     line-height: 1.5;
     font-family: var(--font-primary);
     font-weight: 300;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 /* A elements that don't have a class get default styles */
@@ -102,13 +115,13 @@ button {
 //  RESET ENDS
 
 .App {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    display: flex;
+    flex-direction: column;
     margin-top: 5em;
-    position: relative;
 }
 #container {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2em;
 }
