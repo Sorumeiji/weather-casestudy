@@ -25,11 +25,7 @@ function App() {
 					TRACK THE SUN
 				</button>
 				<div className='landing__downloads'>
-					<a
-						href='https://play.google.com/store'
-						className='googleplay'
-						target='_blank'
-						rel='noopener noreferrer'>
+					<a className='googleplay' target='_blank' rel='noopener noreferrer'>
 						<img src={googleplay} alt='googleplay_download' />
 					</a>
 				</div>
