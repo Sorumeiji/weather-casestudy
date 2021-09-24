@@ -1,6 +1,6 @@
 # Getting Started with Suncast Weather Application
 
-Navigatie to the directory weather-app name sure to run
+! Navigatie to the directory weather-app and run
 
 `npm install`
 
