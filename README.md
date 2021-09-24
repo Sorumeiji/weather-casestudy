@@ -16,9 +16,3 @@ You will also see any lint errors in the console.
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
-
-## Design Case Study
-
-You can read my case study on the design of this application in the design.md file.
-
-
