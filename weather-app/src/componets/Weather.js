@@ -6,27 +6,15 @@ import DailyList from './DailyList';
 import HourlyList from './HourlyList';
 
 const Weather = () => {
-	const today = new Date();
-	const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-	let time = today.getHours() + ':' + today.getMinutes();
 	const [weather, setWeather] = useState(null);
 
-	const displayCurrentTime = () => {
-		if (today.getHours() >= 12) {
-			return time + ' PM';
-		} else {
-			return time + ' AM';
-		}
-	};
-
 	// Loads API
-
 	useEffect(() => {
 		const weatherData = axios
 			.get('https://j9l4zglte4.execute-api.us-east-1.amazonaws.com/api/ctl/weather')
 			.then((data) => {
 				setWeather(data.data);
-				console.log(data.data);
+				console.log(data.data.today.utcTime);
 			})
 			.catch((err) => console.log(err));
 	}, []);
@@ -48,7 +36,7 @@ const Weather = () => {
 			</nav>
 			<Switch>
 				<Route exact={true} path='/'>
-					<Today weather={weather} timezone={timezone} displayCurrentTime={displayCurrentTime()} />
+					<Today weather={weather} />
 				</Route>
 				<Route path='/Daily'>
 					<DailyList weather={weather} />

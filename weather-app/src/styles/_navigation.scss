@@ -6,14 +6,14 @@
 }
 
 .navigation ul li a {
+    color: #f3f3f3;
+    font-size: 1.5em;
     text-transform: uppercase;
-    color: #ffb344;
-    font-weight: 800;
-    font-size: 1em;
+    font-weight: 400;
 }
 
 .navigation ul li a:hover {
-    color: #fff8e5;
+    color: hsl(36, 100%, 63%);
 }
 
 .navigation ul li + li {
