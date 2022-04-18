@@ -1,14 +1,10 @@
+
 # Getting Started with Suncast Weather Application
-
-! Navigatie to the directory weather-app and run
-
-`npm install`
-
-This will install all the packages used to run the website.
 
 ## Available Scripts
 
 In the Weather-App directory, you can run:
+
 ### `npm start`
 
 Runs the app in the development mode.\
